@@ -5,7 +5,7 @@ __3/15更新__
 https://qiita.com/kiyokiyo_kzsby/items/77bdb81a1ce1852b30ca
 ### Reduxを使用していないカウンター
 #### コンポーネントの構造
-親 > 子
+親 > 子  
 src/index.js > src/components/counter.js > src/components/button.js
 #### 処理の流れ
 1. counter.jsにカウント状態(state)の初期値、incrementメソッド、decrementメソッドを定義します。
