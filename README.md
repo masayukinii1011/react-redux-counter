@@ -20,7 +20,7 @@ src/index.js > src/components/counter.js > src/components/button.js
 親コンポーネントから渡して、子コンポーネントで取り出して使用できる値です。
 ### Reduxを使用したカウンター
 #### コンポーネントの構造
-親 > 子
+親 > 子  
 src/index.js > src/components/redux-counter.js > src/components/button.js
 #### 処理の流れ
 1. src/actions/index.jsにActionを用意します。
